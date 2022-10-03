@@ -1,0 +1,77 @@
+.main-div {
+    background-image: url(../../images/navbar.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 64px;
+    width: auto;
+    z-index: 10;
+}
+
+.nav-container {
+    height: 56px;
+    width: auto;
+    z-index: 10;
+}
+
+.logo {
+    margin-left: 60px;
+} @media (max-width: 1400px) {
+    .logo {
+        margin-left: 0px;
+    }
+}@media (max-width: 1000px) {
+    .logo {
+        margin-top: -50px;
+        margin-left: 0px;
+        zoom: 65%;
+    }
+}
+
+.navbar-canvas {
+    margin-top: -25px;
+}
+
+@media (max-width: 985px) {
+#offcanvasNavbar-expand-md {
+    background-image: url(../../images/drawer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110% 110%;
+}
+}
+
+.menu-item {
+    margin-left: 10px;
+} @media (max-width: 1000px) {
+    .menu-item {
+        margin-top: 40px;
+        text-align: center;
+    }
+}
+
+.nav-link:hover {
+    background-image: url(../../images/hover.png);
+    background-size: 100% 95%;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+} @media (max-width: 1000px) {
+    .nav-link:hover {
+        background-image: none;
+    }
+}
+
+.flag {
+    background-image: url(../../images/purpleFlag.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90px;
+    width: 221px;
+    background-size: 100% 100%;
+    margin-top: -30px;
+    /* margin-left: 220px; */
+} @media (max-width: 1000px) {
+    .flag {
+        display: none;
+}
+}
