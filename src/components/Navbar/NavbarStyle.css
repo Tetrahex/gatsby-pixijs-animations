@@ -4,11 +4,13 @@
     background-repeat: no-repeat;
     height: 64px;
     width: auto;
+    z-index: 10;
 }
 
 .nav-container {
     height: 56px;
     width: auto;
+    z-index: 10;
 }
 
 .logo {

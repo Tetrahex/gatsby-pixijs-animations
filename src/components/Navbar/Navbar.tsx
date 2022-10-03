@@ -16,16 +16,7 @@ const navLink = {
   fontSize: "17px",
 };
 
-// const h1 = {
-//   color: "#ffc170",
-//   fontWeight: "700",
-//   fontFamily: "Roboto Slab,serif",
-//   // marginTop: "56px",
-//   // marginLeft: "57px",
-//   fontSize: "21px",
-// };
-
-const Header = () => {
+const NavBar = () => {
   return (
     <main>
       <div className="main-div">
@@ -97,4 +88,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default NavBar;
